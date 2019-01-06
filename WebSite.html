@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Parsa Yadollahi">
+
+		<script src="WebSite.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald:200" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="57x57" href="TitleIcon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="TitleIcon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="TitleIcon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="TitleIcon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="TitleIcon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="TitleIcon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="TitleIcon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="TitleIcon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="TitleIcon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="TitleIcon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="TitleIcon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="TitleIcon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="TitleIcon/favicon-16x16.png">
+		<link rel="manifest" href="manifest.json">
+
+		<title>Parsa Yadollahi</title>
+	</head>
+	<body>
+		<div>
+
+<!-- SideBar -->
+			<div class="sticky">
+				<div id="mySidebar" class="sidebar">
+					<a href="#home" class="toggleContent"><i class="material-icons">home</i>Home</a>
+					<a href="#about" class="toggleContent"><i class="material-icons">person</i>About</a>
+					<a href="#timeline" class="toggleContent"><i class="material-icons">access_time</i>Timeline</a>
+					<a href="#project" class="toggleContent"><i class="material-icons">code</i>Project</a>
+					<a href="#contact" class="toggleContent"><i class="material-icons">contacts</i>Contact</a>
+				</div>
+				<div id="main">
+					<button class="openbtn" onclick="toggleNav()" id="toggleDiv">
+						<i class="fa fa-bars"></i></button>
+				</div>
+			</div>
+			<div id="overlay"></div>
+
+<!-- Intro Page -->
+			<div style="position: relative; bottom: 6.1em;">
+				<div class="mainHead">
+					<h1 class="name">Parsa</h1>
+					<p class="smallLine">______</p>
+					<h2 class="universityTitle">McGill University</h2>
+					<h3 class="programTitle">Computer Science</h3>
+					<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
+						<i class="fa fa-linkedin"></i>
+					</button>
+					<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
+						<i class="fa fa-github"></i>
+					</button>
+				</div>
+			</div>
+
+<!-- About me page -->
+			<div class="clearfix">
+				<div class="intro" id="about">
+					<div class="head" style="padding-top: 2em; position: relative; text-align: left;">
+						<p>About Parsa</p>
+					</div>
+					<p style="margin: 0; padding-right: 75px; font-size: 24px;">
+						First year Computer Science Student at Mcgill University. Like working on personal projects (like these) and working with a team.
+						Currently, I am a Student-Athlete practicing gymnastics and doing my best to manage studying, sport and social life.
+					</p>
+					<p style="color: #a6a6a6; font-size: 28px; padding-top: 10px; font-size: 24px;">
+						My speciality in programming includes java, html, and css. And I've worked on a project called CourseTalk,
+						which I will explain further down in the Website.
+					</p>
+					<div style="width: 50%; text-align: center;">
+						<button class="buttonResume" onclick=" window.open('Resume - Parsa.pdf','_blank')">
+							Check out my Resume
+						</button>
+					</div>
+				</div>
+				<div class="crossphoto">
+					<img src="images/CrossPhoto.jpg" alt="images/CrossBackup.png" style="height: 600px; border-radius: 1%; opacity: 0.8; box-shadow: 10px 10px 5px #005c99;">
+				</div>
+			</div>
+
+<!-- TimeLine page -->
+			<div>
+				<div class="newPage">
+					<div style="text-align: center; color: #a6a6a6; margin-top: 2em;">
+						<hr style="width: 50%; height: 1px;">
+					</div>
+					<div>
+						<div class="container" style="text-align: center;">
+							<div class="head" id="timeline">
+								<p>Timeline</p>
+							</div>
+							<ul class="timeline">
+								<li>
+									<div class="timeline-badge" style="background-color: #005c99;"><i class="fa fa-home"></i></div>
+									<div class="timeline-panel" style="background-color: #f2f2f2; border-radius: 5%;">
+										<div class="timeline-heading">
+											<h4 class="timeline-title" style="font-size: 32px; letter-spacing: 2px;">HomeTown</h4>
+											<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1998 - 2016</small></p>
+										</div>
+										<div class="timeline-body" style="letter-spacing: 1px; font-size: 20px;">
+											<p>
+												Born in Ottawa and lived in Gatineau, a city of little less than 300 thousand people. I lived this calm city
+												untill the age of 18, where I eventually packed my bags and moved to Montreal to experience the live student city.
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge info"><i class="fa fa-child"></i></div>
+									<div class="timeline-panel" style="background-color: #f2f2f2; border-radius: 5%;">
+										<div class="timeline-heading">
+											<h4 class="timeline-title" style="font-size: 32px; letter-spacing: 2px;">Sport life</h4>
+											<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2003 - Present</small></p>
+										</div>
+										<div class="timeline-body" style="letter-spacing: 1px; font-size: 20px;">
+											<p>
+												Practicing Artistic gymnastics for 16 years devoting 25 hours of
+												athletic training per week. Trained at the "Centre Père Sablon" gymnastics center,
+												 house of World Gymnastics Championship and many olympic athlets. Competed at 7 different national competitions
+												 earning medals and gaining the top 8 spots.
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline-badge" style="background-color: #005c99"><i class="fa fa-book"></i></div>
+									<div class="timeline-panel" style="background-color: #f2f2f2; border-radius: 5%;">
+										<div class="timeline-heading">
+											<h4 class="timeline-title" style="font-size: 32px; letter-spacing: 2px;">McGill University</h4>
+											<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>2018 - 2021</small></p>
+										</div>
+										<div class="timeline-body" style="letter-spacing: 1px; font-size: 20px;">
+											<p>
+												Due to Montreal being the student city it is known for, I decided to attend the prestigious McGill University,
+												where I am currently in my first year in the University as a undergraduate in Computer Science.
+
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-badge info"><i class="fa fa-code"></i></div>
+									<div class="timeline-panel" style="background-color: #f2f2f2; border-radius: 5%;">
+										<div class="timeline-heading">
+											<h4 class="timeline-title" style="font-size: 32px; letter-spacing: 2px;">HackPrinceton</h4>
+											<p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>November 2018</small></p>
+										</div>
+										<div class="timeline-body">
+											<p>
+												Participated in my first Hackathon at Princeton in the Fall 2018 semester where me and two of my classmates
+												at McGill worked on a project called CourseTalk. The motivation behind this project is the lack of engagement
+												in school discussion boards. The issue with these pannels is the permenality and formality of having to submit
+												posts, which implies that most students resort to facebook group chats. The issue with facebook is the unawarness
+												that students have to these group chats and the distractions leaded by facebook. Which gave us the inspiration to
+												create a platform similar to that of Slack, which is not as formal as discussion pannels and that would be integrated
+												into students default course page. This would lead to a simpler communication between students about their coursework.
+											</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+<!-- Project Page -->
+			<div class="newPage clearfix" style="margin-bottom: 12em;">
+					<div style="text-align: center; color: #a6a6a6;">
+						<hr style="width: 50%">
+					</div>
+<!-- Page Header -->
+					<div class="head" style="padding-top: 1em;" id="project">
+						<p>Project</p>
+					</div>
+					<div>
+<!-- Right side of page -->
+					<div>
+						<div style="float: right; flex: 0 0 50%; max-width: 50%; width: 100%; position: relative;">
+							<img src="images/McGill.png" alt="images/McgillBackup.jpeg" class="CourseTalkImg">
+							<img src="images/CourseTalk.png" alt="images/CourseTalk BackUp.png" class="CourseTalkImg">
+						</div>
+					</div>
+<!-- Left side of page -->
+				<div style="float: left; flex: 0 0 50%; max-width: 50%; position: relative;">
+					<div>
+						<div class="courseTalkHeader">
+							<p style="margin: 0;">CourseTalk</p>
+						</div>
+						<hr style="width: 20%; color: #a6a6a6;">
+					</div>
+
+					<div style="margin-left: 3em;">
+						<div>
+							<div>
+								<p class="courseTalkhead">Functionality</p>
+							</div>
+							<div>
+								<p style="font-size: 18px; padding-left: 2em; text-align: justify;">
+									CourseTalk connects students of a given university with courses in common by automatically adding them to group
+									conversations, restricted to said course. This creates a space where everyone is comfortable to ask their questions,
+									brainstorm, share lecture notes or even arrange real-life study groups, all distraction-free.
+								</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p class="courseTalkhead">Story Time</p>
+							</div>
+							<div>
+								<p style="font-size: 18px; padding-left: 2em; text-align: justify;">
+									CourseTalk was build using React.js. We were new to JavaScript and React so the first half of the hackathon (about 10 hours)
+									was spent on watching and following online Tutorials to build the project. The tutorial that we were following used two
+									instances of Node.js as its backend.
+									<span id="more">
+										The first to run the web application on Express.js and the second to support the React frontend. Which implies that the website
+										would only be supported on a our localhost server which suppied two ports but would not work on GitHub pages. After hours of
+										try and failure to make it work with multiple ports, we had a friend from a different that suggested to port the project to
+										Webpack and to use Heroku to host the app. With this, the app was up on the internet. Finally we pushed the project to Heroku
+										but it did not work. We found that the app would only work without the CSS component, but by the time we figured that out, the
+										hackathon was very close to its deadline. Thus, we created a stable branch with the old CSS which was posted to Heroku and
+										a master branch with the new CSS (which is the first image presented to the right).
+									</span>
+								</p>
+								<button onclick="myFunction()" id="myBtn" class="readMoreBtn"> More... <i class="fa fa-angle-double-right"></i></button>
+							</div>
+							<div>
+								<p class=courseTalkhead style="margin: 5px;">Built With</p>
+							</div>
+							<div class="builtWith">
+								<span class="badge badge-primary">React.js</span>
+								<span class="badge badge-primary">Heroku</span>
+								<span class="badge badge-info">Blood</span>
+								<span class="badge badge-info">Sweat</span>
+								<span class="badge badge-primary">ChatKit</span>
+								<span class="badge badge-primary">WebPack</span>
+								<span class="badge badge-info">Tears</span>
+								<span class="badge badge-primary">Git</span>
+								<span class="badge badge-info">Awake-Chocolates</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<div class="newPage">
+				<div>
+					<div id="contact" class="endingpg">
+						<div style="padding-top: 6em;">
+							<button class="endingButton" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
+								<i class="fa fa-linkedin"></i>
+							</button>
+							<button class="endingButton" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
+								<i class="fa fa-github"></i>
+							</button>
+							<p class="madeBy">
+								Made By
+							</p>
+							<h1 class="nameProgram">
+								Parsa Yadollahi - Computer Science McGill
+							</h1>
+							<h2>
+								<adress>
+									<a href="mailto:parsayadollahi@mail.mcgill.ca" class="email" style="display: block;">@parsayadollahi@mail.mcgill.ca</a>
+								</adress>
+							</h2>
+							<h2>
+
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

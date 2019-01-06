@@ -1,23 +1,27 @@
 function myFunction() {
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  var moreText = document.getElementById('more');
+  var btnText = document.getElementById('myBtn');
 
-  if (moreText.style.display === "inline") {
-    btnText.innerHTML = "More... <i class=\"fa fa-angle-double-right\"></i>";
-    moreText.style.display = "none";
+  if (moreText.style.display === 'inline') {
+    btnText.innerHTML = 'More... <i class="fa fa-angle-double-right"></i>';
+    moreText.style.display = 'none';
   } else {
-    btnText.innerHTML = "Less <i class=\"fa fa-angle-double-up\"></i>";
-    moreText.style.display = "inline";
+    btnText.innerHTML = 'Less <i class="fa fa-angle-double-up"></i>';
+    moreText.style.display = 'inline';
   }
 }
-function openNav() {
-  document.getElementById("mySidebar").style.width = "180px";
-  document.getElementById("main").style.marginLeft = "180px";
-  document.getElementById("overlay").style.display = "block";
-}
+function toggleNav() {
+  var sidebar = document.getElementById('mySidebar');
+  var main = document.getElementById('main');
+  var overlay = document.getElementById('overlay');
 
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-  document.getElementById("overlay").style.display = "none";
+  if (window.getComputedStyle(sidebar).getPropertyValue('width') == '0px') {
+    sidebar.style.width = '180px';
+    main.style.marginLeft = '180px';
+    overlay.style.display = 'block';
+  } else {
+    sidebar.style.width = '0px';
+    main.style.marginLeft = '0px';
+    overlay.style.display = 'none';
+  }
 }
