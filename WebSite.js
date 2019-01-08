@@ -3,7 +3,7 @@ function myFunction() {
   var btnText = document.getElementById('myBtn');
 
   if (moreText.style.display === 'inline') {
-    btnText.innerHTML = 'More... <i class="fa fa-angle-double-right"></i>';
+    btnText.innerHTML = 'More... <i class="fa fa-angle-double-down"></i>';
     moreText.style.display = 'none';
   } else {
     btnText.innerHTML = 'Less <i class="fa fa-angle-double-up"></i>';
