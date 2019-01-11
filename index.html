@@ -5,6 +5,7 @@
 		<meta name="author" content="Parsa Yadollahi">
 
 		<script src="WebSite.js"></script>
+		<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
 
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,23 +49,28 @@
 			<div id="overlay"></div>
 
 <!-- Intro Page -->
-			<div style="position: relative; bottom: 6.1em;">
+
+			<div id="home" style="position: relative; bottom: 6.1em;">
 				<div class="mainHead">
 					<h1 class="name">Parsa</h1>
 					<p class="smallLine">______</p>
 					<h2 class="universityTitle">McGill University</h2>
 					<h3 class="programTitle">Computer Science</h3>
+				<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
 					<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
 						<i class="fa fa-linkedin"></i>
 					</button>
+				</a>
+				<a href="https://github.com/ParsaYadollahi" target="_blank">
 					<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
 						<i class="fa fa-github"></i>
 					</button>
+				</a>
 				</div>
 			</div>
 
 <!-- About me page -->
-			<div class="clearfix">
+			<div class="clearfix toggle">
 				<div class="intro" id="about">
 					<div class="head" style="padding-top: 2em; position: relative; text-align: left; left: 1em;">
 						<p>About Me</p>
@@ -80,9 +86,10 @@
 						I worked on CourseTalk, a project built at my first Hackathon that I will explain further down.
 					</p>
 					<div style="position: relative; right: 8em; text-align: center;">
+						<a href="https://parsayadollahi.github.io/Resume%20-%20Parsa.pdf" target="_blank">
 						<button class="buttonResume" onclick=" window.open('Resume - Parsa.pdf','_blank')">
 							Check out my Resume
-						</button>
+						</button></a>
 					</div>
 				</div>
 				<div class="crossphoto">
@@ -267,12 +274,16 @@
 				<div>
 					<div id="contact" class="endingpg">
 						<div style="padding-top: 6em;">
+						<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
 							<button class="endingButton" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
 								<i class="fa fa-linkedin"></i>
 							</button>
+						</a>
+						<a href="https://github.com/ParsaYadollahi" target="_blank">
 							<button class="endingButton" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
 								<i class="fa fa-github"></i>
 							</button>
+						</a>
 							<p class="madeBy">
 								Made By
 							</p>
