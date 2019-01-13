@@ -123,12 +123,12 @@ body, html {
 }
 .intro {
 	font-family: 'Oswald', sans-serif;
-	width: 50%;
+	width: 48%;
 	float: right;
 	padding-right: 4em;
 	padding-left: 4em;
 	position: relative;
-	right: 2em;
+	right: 7em;
 }
 .introPrt1 {
 	margin: 0;
@@ -299,7 +299,7 @@ body, html {
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
-  font-size: 17px;
+  font-size: 20px;
 }
 .timeline-body > p + p {
   margin-top: 5px;
@@ -364,7 +364,7 @@ body, html {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 17px;
+  font-size: 19px;
   cursor: pointer;
   border-radius: 6px;
   margin: 0;
