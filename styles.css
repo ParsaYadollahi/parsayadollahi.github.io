@@ -577,3 +577,15 @@ div.sticky {
 .gang{
 	color: #ff9900;
 }
+.backTopbtn {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #b3b3b3;
+	font-size: 15px;
+	background: transparent;
+	border: none;
+	margin-top: 1em;
+}
+.backTopbtn:hover {
+	color: #ffffff;
+}
