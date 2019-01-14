@@ -433,7 +433,7 @@ body, html {
   left: 0;
   background-color: #00111a;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.7s;
   padding-top: 60px;
   white-space: nowrap;
 }
