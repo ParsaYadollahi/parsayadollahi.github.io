@@ -1,0 +1,120 @@
+.CourseTalkImg {
+	height: 65%;
+	width: 65%;
+	min-height: 300px;
+	min-width: 300px;
+	position: relative;
+	float: right;
+	right: 7em;
+	top: 1em;
+	padding-top: 23px;
+	margin-bottom: 1em;
+}
+.courseTalkHeader {
+	font-family: 'Oswald', sans-serif;
+	color: #595959;
+	letter-spacing: 4px;
+	text-align: center;
+	padding-top: 15px;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+.courseTalkhead {
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: #595959;
+	padding-top: 20px;
+	letter-spacing: 2px;
+	position: relative;
+	left: 10px;
+	padding-left: 10px;
+	float: left;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.builtWith {
+	text-align: center;
+	margin: 0;
+	font-size: 22px;
+	position: relative;
+	left: 1em;
+}
+
+.readMoreBtn {
+	background-color: transparent;
+	border: none;
+	color: #005c99;
+	margin-left: 2em;
+	padding-top: 0;
+}
+.readMoreBtn:hover {
+	color: #66b3ff;
+}
+
+.ending {
+	background-color: #4d4d4d;
+	height: 40%;
+	width: 100%;
+}
+
+.endingpg {
+	font-family: 'Oswald', sans-serif;
+	height: 350px;
+	width: 100%;
+	background-color: #00111a;
+	text-align: center;
+}
+.endingButton {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	background: transparent;
+	padding: 0;
+	border: none;
+	font-size: 35px;
+	cursor: pointer;
+	color: #a6a6a6;
+	margin: 5px;
+}
+.endingButton:hover, .endingButton:focus, .endingButton:active {
+	transform: scale(1.1) perspective(1px);
+	color: white;
+}
+.madeBy {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #595959;
+	font-size: 17px;
+}
+.nameProgram {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #cccccc;
+	font-size: 21px;
+}
+.email {
+	text-decoration: none;
+	background-color: transparent;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 21px;
+	color: #0033cc;
+}
+.email:hover {
+	text-decoration: none;
+	color: #33cccc;
+}
+.backTopbtn {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	color: #b3b3b3;
+	font-size: 15px;
+	background: transparent;
+	border: none;
+	margin-top: 1em;
+}
+.backTopbtn:hover {
+	color: #ffffff;
+}
