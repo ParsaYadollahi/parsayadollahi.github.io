@@ -657,41 +657,4 @@ html, body {
   height: 100%;
   font-family: 'Oswald', sans-serif;
 }
-
-#transitionImg {
-  width: 100%;
-  height: 100%;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-#transitionImg:hover {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-shadow: -5px 5px 5px #aaa;
-          box-shadow: -5px 5px 5px #aaa;
-  position: relative;
-}
-
-.face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-}
-
-.face .back {
-  display: block;
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  padding: 10px;
-  color: white;
-  text-align: center;
-  background-color: #aaa;
-}
 /*# sourceMappingURL=main.css.map */
