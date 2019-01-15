@@ -1,18 +1,3 @@
-.mainHead {
-  padding-top: 6.1em;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
-  min-height: 104vh;
-  min-width: 98vw;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  background-attachment: fixed;
-}
-
 @-webkit-keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-8px);
@@ -93,7 +78,7 @@
 }
 
 .intro {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   width: 48%;
   float: right;
   padding-right: 4em;
@@ -205,10 +190,25 @@
           box-shadow: 10px 10px 5px grey;
 }
 
+.mainHead {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
+  min-height: 100vh;
+  min-width: 98vw;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+}
+
 .name {
+  font-size: 45px;
   color: #e6e6e6;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 6px;
   margin: 0;
   padding-top: 55px;
@@ -216,16 +216,18 @@
 }
 
 .universityTitle {
+  font-size: 30px;
   color: #e6e6e6;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
   text-align: center;
   margin-top: 1em;
 }
 
 .programTitle {
+  font-size: 22px;
   color: #e6e6e6;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
   text-align: center;
 }
@@ -392,7 +394,7 @@
 }
 
 .head {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #595959;
   letter-spacing: 4px;
   text-align: center;
@@ -402,20 +404,27 @@
 }
 
 .CourseTalkImg {
-  height: 65%;
-  width: 65%;
-  min-height: 300px;
-  min-width: 300px;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  max-height: 100%;
   position: relative;
   float: right;
-  right: 7em;
-  top: 1em;
-  padding-top: 23px;
-  margin-bottom: 1em;
+}
+
+.courseTalkimages {
+  float: right;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 40%;
+  width: 100%;
+  position: relative;
+  margin: 13% 4%;
 }
 
 .courseTalkHeader {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #595959;
   letter-spacing: 4px;
   text-align: center;
@@ -426,7 +435,7 @@
 
 .courseTalkhead {
   font-size: 25px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #595959;
   padding-top: 20px;
   letter-spacing: 2px;
@@ -452,6 +461,8 @@
   color: #005c99;
   margin-left: 2em;
   padding-top: 0;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
 }
 
 .readMoreBtn:hover {
@@ -465,8 +476,9 @@
 }
 
 .endingpg {
-  font-family: 'Oswald', sans-serif;
-  height: 350px;
+  font-family: "Oswald", sans-serif;
+  min-height: 35%;
+  height: 300px;
   width: 100%;
   background-color: #00111a;
   text-align: center;
@@ -495,14 +507,14 @@
 }
 
 .madeBy {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   color: #595959;
   font-size: 17px;
 }
 
 .nameProgram {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   color: #cccccc;
   font-size: 21px;
@@ -511,7 +523,7 @@
 .email {
   text-decoration: none;
   background-color: transparent;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 21px;
   color: #0033cc;
@@ -523,7 +535,7 @@
 }
 
 .backTopbtn {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   color: #b3b3b3;
   font-size: 15px;
@@ -580,7 +592,7 @@
   padding: 10px 15px;
   border: none;
   opacity: 0.45;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 16px;
 }
 
@@ -588,7 +600,7 @@
   background-color: #444;
   opacity: 1;
   font-size: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 @media screen and (max-height: 450px) {
@@ -611,7 +623,7 @@ div.sticky {
 
 .toggleContent {
   font-size: 17px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
 }
 
@@ -623,8 +635,8 @@ div.sticky {
 #overlay {
   position: fixed;
   display: none;
-  width: 100%;
   height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -653,8 +665,8 @@ html, body {
 }
 
 .newPage {
-  width: 100%;
   height: 100%;
-  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

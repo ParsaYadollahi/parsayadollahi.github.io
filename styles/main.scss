@@ -3,6 +3,7 @@
 @import "timeline";
 @import "project";
 @import "sidebar.scss";
+@import "variables";
 
 html, body {
 	margin:0;
@@ -19,7 +20,6 @@ html, body {
     text-align: left;
   }
 .newPage {
-	width: 100%;
-	height: 100%;
-	font-family: 'Oswald', sans-serif;
+  @include proportions(100%, 100%);
+	font-family: $fontstyle;
 }

@@ -1,3 +1,5 @@
+@import "variables";
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
@@ -130,7 +132,7 @@
     margin-top: 5px;
   }
   .head {
-      font-family: 'Oswald', sans-serif;
+      font-family: $fontstyle;
       color: #595959;
       letter-spacing: 4px;
       text-align: center;

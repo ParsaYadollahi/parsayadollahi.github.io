@@ -1,17 +1,22 @@
+@import "variables";
+
 .CourseTalkImg {
-	height: 65%;
-	width: 65%;
-	min-height: 300px;
-	min-width: 300px;
+	@include proportions(100%, 100%);
+	min-height: 100%;
+	max-height: 100%;
 	position: relative;
-	float: right;
-	right: 7em;
-	top: 1em;
-	padding-top: 23px;
-	margin-bottom: 1em;
+    float: right;
+}
+.courseTalkimages {
+    float: right;
+    flex: 0 0 50%;
+    max-width: 40%;
+    width: 100%;
+    position: relative;
+    margin: 13% 4%;
 }
 .courseTalkHeader {
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	color: #595959;
 	letter-spacing: 4px;
 	text-align: center;
@@ -21,7 +26,7 @@
 }
 .courseTalkhead {
 	font-size: 25px;
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	color: #595959;
 	padding-top: 20px;
 	letter-spacing: 2px;
@@ -45,7 +50,9 @@
 	border: none;
 	color: #005c99;
 	margin-left: 2em;
-	padding-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+    font-family: $fontstyle;
 }
 .readMoreBtn:hover {
 	color: #66b3ff;
@@ -53,14 +60,13 @@
 
 .ending {
 	background-color: #4d4d4d;
-	height: 40%;
-	width: 100%;
+	@include proportions(40%, 100%);
 }
 
 .endingpg {
-	font-family: 'Oswald', sans-serif;
-	height: 350px;
-	width: 100%;
+	font-family: $fontstyle;
+	min-height: 35%;
+	@include proportions(300px, 100%);
 	background-color: #00111a;
 	text-align: center;
 }
@@ -83,13 +89,13 @@
 	color: white;
 }
 .madeBy {
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	text-align: center;
 	color: #595959;
 	font-size: 17px;
 }
 .nameProgram {
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	text-align: center;
 	color: #cccccc;
 	font-size: 21px;
@@ -97,7 +103,7 @@
 .email {
 	text-decoration: none;
 	background-color: transparent;
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	text-align: center;
 	font-size: 21px;
 	color: #0033cc;
@@ -107,7 +113,7 @@
 	color: #33cccc;
 }
 .backTopbtn {
-	font-family: 'Oswald', sans-serif;
+	font-family: $fontstyle;
 	text-align: center;
 	color: #b3b3b3;
 	font-size: 15px;

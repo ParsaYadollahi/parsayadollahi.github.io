@@ -1,0 +1,8 @@
+// Font Family
+$fontstyle: 'Oswald', sans-serif;
+
+// Max height and width
+@mixin proportions($height, $width) {
+    height: $height;
+    width: $width;
+}
