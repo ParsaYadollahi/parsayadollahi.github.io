@@ -1,19 +1,21 @@
 @import "variables";
 
 .CourseTalkImg {
-	@include proportions(100%, 100%);
+	@include proportions(150%, 150%);
 	min-height: 100%;
 	max-height: 100%;
 	position: relative;
-    float: right;
+	float: right;
 }
 .courseTalkimages {
     float: right;
     flex: 0 0 50%;
-    max-width: 40%;
+    max-width: 47%;
     width: 100%;
-    position: relative;
-    margin: 13% 4%;
+	position: relative;
+	padding: 8% 0;
+	padding-right: 2%;
+	vertical-align: middle;
 }
 .courseTalkHeader {
 	font-family: $fontstyle;
@@ -66,7 +68,7 @@
 .endingpg {
 	font-family: $fontstyle;
 	min-height: 35%;
-	@include proportions(300px, 100%);
+	@include proportions(280px, 100%);
 	background-color: #00111a;
 	text-align: center;
 }
@@ -92,20 +94,20 @@
 	font-family: $fontstyle;
 	text-align: center;
 	color: #595959;
-	font-size: 17px;
+	font-size: 15px;
 }
 .nameProgram {
 	font-family: $fontstyle;
 	text-align: center;
 	color: #cccccc;
-	font-size: 21px;
+	font-size: 18px;
 }
 .email {
 	text-decoration: none;
 	background-color: transparent;
 	font-family: $fontstyle;
 	text-align: center;
-	font-size: 21px;
+	font-size: 17px;
 	color: #0033cc;
 }
 .email:hover {
@@ -116,7 +118,7 @@
 	font-family: $fontstyle;
 	text-align: center;
 	color: #b3b3b3;
-	font-size: 15px;
+	font-size: 13px;
 	background: transparent;
 	border: none;
 	margin-top: 1em;
