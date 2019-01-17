@@ -1,3 +1,14 @@
+$('a[href^=#]').on("click",function(){
+  var t= $(this.hash);
+  var t=t.length&&t||$('[name='+this.hash.slice(1)+']');
+  if(t.length){
+      var tOffset=t.offset().top;
+      $('html,body').animate({scrollTop:tOffset-20},'slow');
+      return false;
+  }
+});
+
+// Read more btn js
 function myFunction() {
   var moreText = document.getElementById('more');
   var btnText = document.getElementById('myBtn');
@@ -10,6 +21,8 @@ function myFunction() {
     moreText.style.display = 'inline';
   }
 }
+
+// Sidebar js
 function toggleNav() {
   var sidebar = document.getElementById('mySidebar');
   var main = document.getElementById('main');
