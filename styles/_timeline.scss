@@ -10,7 +10,7 @@
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 5px;
+    width: 10px;
     background-image: -webkit-gradient(linear, left bottom, left top,
 									   color-stop(0.15, rgb(131, 165, 231)),
 									   color-stop(0.3, rgb(73,125,189)),
@@ -20,7 +20,7 @@
                      color-stop(0.9, rgb(4, 7, 17)),
                      color-stop(1, rgb(0, 0, 0)));
     opacity: 0.75;
-    left: 50%;
+    left: 49.7%;
     margin-left: -1.5px;
     opacity: 0.6;
   }
