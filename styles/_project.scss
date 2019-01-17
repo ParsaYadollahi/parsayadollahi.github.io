@@ -26,6 +26,18 @@
 	text-transform: uppercase;
 	font-size: 32px;
 }
+.courseTalkBtn {
+		font-family: $fontstyle;
+		text-align: center;
+		color: #595959;
+		font-size: 125%;
+		background: transparent;
+		border: none;
+		margin-top: 1em;
+}
+.courseTalkBtn:hover {
+		color: #005c99;
+}
 .courseTalkhead {
 	font-size: 25px;
 	font-family: $fontstyle;
@@ -68,7 +80,7 @@
 .endingpg {
 	font-family: $fontstyle;
 	min-height: 35%;
-	@include proportions(280px, 100%);
+	@include proportions(290px, 100%);
 	background-color: #00111a;
 	text-align: center;
 }
