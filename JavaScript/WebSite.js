@@ -14,10 +14,10 @@ function myFunction() {
   var btnText = document.getElementById('myBtn');
 
   if (moreText.style.display === 'inline') {
-    btnText.innerHTML = 'More... <i class="fa fa-angle-double-down"></i>';
+    btnText.innerHTML = 'More... <i class="fa fa-angle-double-right"></i>';
     moreText.style.display = 'none';
   } else {
-    btnText.innerHTML = 'Less <i class="fa fa-angle-double-up"></i>';
+    btnText.innerHTML = '<i class="fa fa-angle-double-left"></i> Less';
     moreText.style.display = 'inline';
   }
 }

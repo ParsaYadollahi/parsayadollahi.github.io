@@ -10,8 +10,15 @@
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 3px;
-    background-color: black;
+    width: 5px;
+    background-image: -webkit-gradient(linear, left bottom, left top,
+									   color-stop(0.15, rgb(131, 165, 231)),
+									   color-stop(0.3, rgb(73,125,189)),
+                     color-stop(0.45, rgb(28,58,148)),
+                     color-stop(0.6, rgb(16, 32, 78)),
+                     color-stop(0.75, rgb(9, 17, 43)),
+                     color-stop(0.9, rgb(4, 7, 17)),
+                     color-stop(1, rgb(0, 0, 0)));
     opacity: 0.75;
     left: 50%;
     margin-left: -1.5px;
@@ -105,19 +112,19 @@
     right: auto;
   }
   .timeline-badge.primary {
-    background-color: #2e6da4 !important;
+    background-color: #2e6da4;
   }
   .timeline-badge.success {
-    background-color: #3f903f !important;
+    background-color: #3f903f;
   }
   .timeline-badge.warning {
-    background-color: #f0ad4e !important;
+    background-color: #f0ad4e;
   }
   .timeline-badge.danger {
-    background-color: #d9534f !important;
+    background-color: #d9534f;
   }
   .timeline-badge.info {
-    background-color: #5bc0de !important;
+    background-color: #5bc0de;
   }
   .timeline-title {
     margin-top: 0;

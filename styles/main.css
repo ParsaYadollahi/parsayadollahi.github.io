@@ -250,8 +250,8 @@
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
-  background-color: black;
+  width: 5px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.15, #83a5e7), color-stop(0.3, #497dbd), color-stop(0.45, #1c3a94), color-stop(0.6, #10204e), color-stop(0.75, #09112b), color-stop(0.9, #040711), color-stop(1, black));
   opacity: 0.75;
   left: 50%;
   margin-left: -1.5px;
@@ -359,23 +359,23 @@
 }
 
 .timeline-badge.primary {
-  background-color: #2e6da4 !important;
+  background-color: #2e6da4;
 }
 
 .timeline-badge.success {
-  background-color: #3f903f !important;
+  background-color: #3f903f;
 }
 
 .timeline-badge.warning {
-  background-color: #f0ad4e !important;
+  background-color: #f0ad4e;
 }
 
 .timeline-badge.danger {
-  background-color: #d9534f !important;
+  background-color: #d9534f;
 }
 
 .timeline-badge.info {
-  background-color: #5bc0de !important;
+  background-color: #5bc0de;
 }
 
 .timeline-title {
