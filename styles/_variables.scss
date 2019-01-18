@@ -6,9 +6,8 @@ $fontstyle: 'Oswald', sans-serif;
     height: $height;
     width: $width;
 }
-
-@mixin name {
-
+@mixin hello {
+    
     @-webkit-keyframes hvr-buzz-out {
         10% {
           -webkit-transform: translateX(3px) rotate(2deg);
@@ -109,5 +108,5 @@ $fontstyle: 'Oswald', sans-serif;
         animation-timing-function: linear;
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
-      }
     }
+}
