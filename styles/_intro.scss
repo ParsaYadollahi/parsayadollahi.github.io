@@ -79,6 +79,17 @@
       padding-left: 4em;
       position: relative;
       right: 7em;
+
+      @include intro {
+        display: inline-block;
+        position: relative;
+        left: 9%;
+        float: none; 
+        text-align: center;
+        margin: 0;
+        width: 80%;
+        padding-bottom: 1em;
+      }
   }
   .introPrt1 {
       margin: 0;
@@ -105,6 +116,16 @@
       margin-bottom: 70px;
       display: flex;
       justify-content: center;
+
+        @include intro {
+          display: inline-block;
+          position: relative;
+          left: 25%;
+          float: none; 
+          margin: 0;
+          width: 80%;
+          padding-bottom: 4em;
+        } 
   }
   .crossImg {
       min-height: 600px;
@@ -112,8 +133,8 @@
       @include proportions(47%, 47%);
       border-radius: 1%;
       opacity: 0.8;
-      box-shadow: 7px 7px 3px #005c99;
-  }
+      box-shadow: 7px 7px 3px #005c99; 
+}
   .clearfix::after {
     content: "";
     clear: both;
