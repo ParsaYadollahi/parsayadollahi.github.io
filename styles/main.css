@@ -420,7 +420,7 @@
   max-width: 47%;
   width: 100%;
   position: relative;
-  padding: 9% 0;
+  padding: 11% 0;
   padding-right: 2%;
   vertical-align: middle;
 }
@@ -680,7 +680,7 @@
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 10px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
@@ -741,6 +741,7 @@ div.sticky {
   font-size: 17px;
   font-family: "Oswald", sans-serif;
   letter-spacing: 2px;
+  padding: 0;
 }
 
 .arrawsToggle {
@@ -772,7 +773,7 @@ html, body {
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   border-radius: 10px;
   height: 10px;
-  width: 9px;
+  width: 8px;
 }
 
 html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {

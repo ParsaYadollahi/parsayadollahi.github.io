@@ -1,5 +1,7 @@
 // Font Family
 $fontstyle: 'Oswald', sans-serif;
+$phoneIntro: 865px;
+$phoneProject: 830px;
 
 // Max height and width
 @mixin proportions($height, $width) {

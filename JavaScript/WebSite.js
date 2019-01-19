@@ -29,8 +29,8 @@ function toggleNav() {
   var overlay = document.getElementById('overlay');
 
   if (window.getComputedStyle(sidebar).getPropertyValue('width') == '0px') {
-    sidebar.style.width = '180px';
-    main.style.marginLeft = '180px';
+    sidebar.style.width = '155px';
+    main.style.marginLeft = '155px';
     overlay.style.display = 'block';
   } else {
     sidebar.style.width = '0%';
