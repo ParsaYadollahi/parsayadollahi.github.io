@@ -1,10 +1,8 @@
 @import "variables";
 
 .CourseTalkImg {
-	@include proportions(150%, 150%);
-	min-height: 100%;
+	@include proportions(100%, 100%);
 	max-height: 100%;
-	position: relative;
 	float: right;
 
 	@include project {
@@ -16,13 +14,14 @@
 	}
 }
 .courseTalkimages {
-	float: right;
-	flex: 0 0 50%;
-	max-width: 47%;
-	width: 100%;
-	padding: 1% 0;
-	padding-right: 2%;
+	float: left;
+	max-width: 50%;
+	width: 38%;
 	vertical-align: middle;
+	position: relative;
+	left: 5%;
+	margin-top: 12%;
+
 
 	@include project {
 	float: none;
