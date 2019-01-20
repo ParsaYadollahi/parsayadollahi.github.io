@@ -2,8 +2,8 @@
 
 .mainHead {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
-    min-height: 100vh;
-    min-width: 98vw;
+    min-height: 101vh;
+    min-width: 99vw;
     @include proportions(100%, 100%);
     background-size: cover;
     background-position: center;
