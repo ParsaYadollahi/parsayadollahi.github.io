@@ -2,6 +2,7 @@
 $fontstyle: 'Oswald', sans-serif;
 $phoneIntro: 865px;
 $phoneProject: 830px;
+$phoneTimeLine: 770px;
 
 // Max height and width
 @mixin proportions($height, $width) {
@@ -14,7 +15,7 @@ $projectView: 900px;
 $introView: 960px;
 
 @mixin project {
-  @media (min-width: #{$projectView}){
+  @media (max-width: #{$projectView}){
     @content; 
   }
 }
@@ -23,4 +24,10 @@ $introView: 960px;
   @media (max-width: #{$introView}){
     @content;
   }
+}
+@mixin timeLine {
+  @media (max-width: #{$phoneTimeLine}) {
+    @content;
+  }
+  
 }
