@@ -221,7 +221,7 @@
 .mainHead {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
-  min-height: 101vh;
+  min-height: 108vh;
   min-width: 99vw;
   height: 100%;
   width: 100%;
