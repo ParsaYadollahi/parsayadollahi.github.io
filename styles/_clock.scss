@@ -1,0 +1,9 @@
+@import "variables";
+
+.clock{
+    @include proportions(100%, 100%);
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-family: $fontstyle;
+}

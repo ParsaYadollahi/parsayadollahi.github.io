@@ -1,13 +1,3 @@
-$('a[href^=#]').on("click",function(){
-  var t= $(this.hash);
-  var t=t.length&&t||$('[name='+this.hash.slice(1)+']');
-  if(t.length){
-      var tOffset=t.offset().top;
-      $('html,body').animate({scrollTop:tOffset-20},'slow');
-      return false;
-  }
-});
-
 // Read more btn js
 function myFunction() {
   var moreText = document.getElementById('more');
@@ -38,3 +28,10 @@ function toggleNav() {
     overlay.style.display = 'none';
   }
 }
+
+function dateAndTime() {
+  var today = new Date();
+  document.getElementById('timer').innerHTML = today.toLocaleTimeString();
+  setTimeout(dateAndTime, 1000);
+}
+dateAndTime();

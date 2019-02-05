@@ -866,6 +866,15 @@ div.sticky {
   cursor: pointer;
 }
 
+.clock {
+  height: 100%;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
 html, body {
   margin: 0;
   padding: 0;

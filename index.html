@@ -5,7 +5,6 @@
 		<meta name="author" content="Parsa Yadollahi">
 	
 		<link rel="stylesheet" type="text/css" href="styles/main.css">
-		<script src="JavaScript/WebSite.js"></script>
 		<script src="https://code.jquery.com/jquery-1.11.0.min.js" integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI=" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -47,36 +46,38 @@
 				</div>
 				<div id="main">
 					<button class="openbtn" onclick="toggleNav()" id="toggleDiv">
-						<i class="fa fa-bars"></i></button>
-				</div>
-			</div>
-			<div id="overlay"></div>
-<!-- Intro Page -->
-			<div id="home" style="position: relative; bottom: 7.6em;">
-				<div class="mainHead">
-<!-- Content Intro -->
-					<h1 class="name"><span style="color:#005c99">P</span>arsa</h1>
-					<p class="smallLine">______</p>
-					<h2 class="universityTitle">McGill University</h2>
-					<h3 class="programTitle">Computer Science</h3>
-<!-- Link for Buttons -->
-				<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
-					<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
-						<i class="fa fa-linkedin"></i>
+						<i class="fa fa-bars"></i>
 					</button>
-				</a>
-				<a href="https://github.com/ParsaYadollahi" target="_blank">
-					<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
-						<i class="fa fa-github"></i>
-					</button>
-				</a>
 				</div>
-			</div>
-<!-- End Intro -->
-
-<!-- About me page -->
-			<hr style="width: 50%; height: 1px;">
-			<div class="clearfix toggle">
+				</div>
+					<div id="overlay"></div>
+					<!-- Intro Page -->
+					<div id="home" style="position: relative; bottom: 7.6em;">
+						<div class="mainHead">
+							<!-- Content Intro -->
+								<h1 class="name"><span style="color:#005c99">P</span>arsa</h1>
+								<p class="smallLine">______</p>
+								<h2 class="universityTitle">McGill University</h2>
+								<h3 class="programTitle">Computer Science</h3>
+								<div id="timer" class="clock"></div>
+							<!-- Link for Buttons -->
+							<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
+								<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
+									<i class="fa fa-linkedin"></i>
+								</button>
+							</a>
+							<a href="https://github.com/ParsaYadollahi" target="_blank">
+								<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
+									<i class="fa fa-github"></i>
+								</button>
+							</a>
+						</div>
+					</div>
+					<!-- End Intro -->
+						
+					<!-- About me page -->
+					<hr style="width: 50%; height: 1px;">
+					<div class="clearfix toggle">
 <!-- Header (Left Side) -->
 				<div class="intro" id="about">
 					<div class="head" style="padding-top: 1em; position: relative; text-align: left; left: 1em;">
@@ -342,3 +343,5 @@
 		</div>
 	</body>
 </html>
+
+<script src="JavaScript/WebSite.js"></script>
