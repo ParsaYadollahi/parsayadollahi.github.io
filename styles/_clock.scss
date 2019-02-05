@@ -2,8 +2,13 @@
 
 .clock{
     @include proportions(100%, 100%);
+    @extend .container;
     font-size: 2em;
     text-align: center;
     color: white;
     font-family: $fontstyle;
+    font-size: 25px;
+    vertical-align: middle;
+    position: relative;
+    right: 2%;
 }

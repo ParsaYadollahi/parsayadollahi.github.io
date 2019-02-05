@@ -34,47 +34,53 @@
 	</head>
 	<body>
 		<div>
-
-<!-- SideBar -->
-			<div class="sticky">
-				<div id="mySidebar" class="sidebar">
-					<a href="#home" class="toggleContent"><i class="material-icons">home</i>Home</a>
-					<a href="#about" class="toggleContent"><i class="material-icons">person</i>About</a>
-					<a href="#timeline" class="toggleContent"><i class="material-icons">access_time</i>Timeline</a>
-					<a href="#project" class="toggleContent"><i class="material-icons">code</i>Project</a>
-					<a href="#contact" class="toggleContent"><i class="material-icons">contacts</i>Contact</a>
-				</div>
-				<div id="main">
-					<button class="openbtn" onclick="toggleNav()" id="toggleDiv">
-						<i class="fa fa-bars"></i>
-					</button>
-				</div>
-				</div>
-					<div id="overlay"></div>
-					<!-- Intro Page -->
-					<div id="home" style="position: relative; bottom: 7.6em;">
-						<div class="mainHead">
-							<!-- Content Intro -->
-								<h1 class="name"><span style="color:#005c99">P</span>arsa</h1>
-								<p class="smallLine">______</p>
-								<h2 class="universityTitle">McGill University</h2>
-								<h3 class="programTitle">Computer Science</h3>
-								<div id="timer" class="clock"></div>
-							<!-- Link for Buttons -->
-							<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
-								<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
-									<i class="fa fa-linkedin"></i>
-								</button>
-							</a>
-							<a href="https://github.com/ParsaYadollahi" target="_blank">
-								<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
-									<i class="fa fa-github"></i>
-								</button>
-							</a>
+			<!-- Intro Page -->
+			<div id="home">
+					<div class="mainHead">
+						<div class="topBar">
+							<a href="#home" class="topBarTxt" style="padding-left: 1em;"><i class="material-icons">home</i>Home</a>
+							<a href="#about" class="topBarTxt" style="float:left;"><i class="material-icons">person</i>About</a>
+							<a href="#timeline" class="topBarTxt" style="float:left;"><i class="material-icons">access_time</i>Timeline</a>
+							<p id="timer" class="clock"></p>
+							<a href="#project" class= "topBarTxt"><i class="material-icons">code</i>Project</a>
+							<a href="#contact" class="topBarTxt" style="padding-right: 1em;"><i class="material-icons">contacts</i>Contact</a>
 						</div>
+						<!-- Content Intro -->
+						<h1 class="name"><span style="color:#005c99">P</span>arsa</h1>
+						<p class="smallLine">______</p>
+						<h2 class="universityTitle">McGill University</h2>
+						<h3 class="programTitle">Computer Science</h3>
+						<!-- Link for Buttons -->
+						<a href="https://www.linkedin.com/in/parsa-yadollahi/" target="_blank">
+							<button class="hvr-bob" onclick="window.open('https://www.linkedin.com/in/parsa-yadollahi/','_blank')">
+								<i class="fa fa-linkedin"></i>
+							</button>
+						</a>
+						<a href="https://github.com/ParsaYadollahi" target="_blank">
+							<button class="hvr-bob" onclick="window.open('https://github.com/ParsaYadollahi','_blank')">
+								<i class="fa fa-github"></i>
+							</button>
+						</a>
 					</div>
-					<!-- End Intro -->
-						
+				</div>
+				<!-- End Intro -->
+				
+				<!-- SideBar -->
+							<div class="sticky">
+								<div id="mySidebar" class="sidebar">
+									<a href="#home" class="toggleContent"><i class="material-icons">home</i>Home</a>
+									<a href="#about" class="toggleContent"><i class="material-icons">person</i>About</a>
+									<a href="#timeline" class="toggleContent"><i class="material-icons">access_time</i>Timeline</a>
+									<a href="#project" class="toggleContent"><i class="material-icons">code</i>Project</a>
+									<a href="#contact" class="toggleContent"><i class="material-icons">contacts</i>Contact</a>
+								</div>
+								<div id="main">
+									<button class="openbtn" onclick="toggleNav()" id="toggleDiv">
+										<i class="fa fa-bars"></i>
+									</button>
+								</div>
+								</div>
+									<div id="overlay"></div>
 					<!-- About me page -->
 					<hr style="width: 50%; height: 1px;">
 					<div class="clearfix toggle">

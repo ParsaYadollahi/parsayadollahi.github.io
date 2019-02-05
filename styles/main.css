@@ -1,3 +1,19 @@
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @-webkit-keyframes hvr-bob {
   0% {
     -webkit-transform: translateY(-8px);
@@ -218,10 +234,26 @@
           box-shadow: 10px 10px 5px grey;
 }
 
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .mainHead {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
-  min-height: 104vh;
+  min-height: 100vh;
   min-width: 99vw;
   height: 100%;
   width: 100%;
@@ -265,6 +297,49 @@
   font-size: 10px;
   text-align: center;
   margin-top: 2em;
+}
+
+.topBar {
+  height: 6em;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.topBarTxt {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 0px 5px;
+  padding-top: 4px;
+}
+
+.topBarTxt:hover {
+  color: #c3c1c1;
+  text-decoration: none;
+}
+
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .timeline {
@@ -428,6 +503,22 @@
   padding-top: 15px;
   text-transform: uppercase;
   font-size: 45px;
+}
+
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .CourseTalkImg {
@@ -767,6 +858,22 @@
   color: #ffffff;
 }
 
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .sidebar {
   height: 100%;
   width: 0;
@@ -820,6 +927,8 @@
   opacity: 1;
   font-size: 16px;
   font-family: "Oswald", sans-serif;
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 @media screen and (max-height: 450px) {
@@ -866,6 +975,54 @@ div.sticky {
   cursor: pointer;
 }
 
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container, .topBarTxt, .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .clock {
   height: 100%;
   width: 100%;
@@ -873,6 +1030,10 @@ div.sticky {
   text-align: center;
   color: white;
   font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  vertical-align: middle;
+  position: relative;
+  right: 2%;
 }
 
 html, body {
