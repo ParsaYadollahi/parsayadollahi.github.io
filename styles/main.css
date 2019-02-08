@@ -172,8 +172,8 @@
   width: 47%;
   border-radius: 1%;
   opacity: 0.8;
-  -webkit-box-shadow: 7px 7px 3px #005c99;
-          box-shadow: 7px 7px 3px #005c99;
+  -webkit-box-shadow: 7px 7px 10px #005c99;
+          box-shadow: 7px 7px 10px #005c99;
 }
 
 .clearfix::after {
@@ -200,8 +200,8 @@
   margin: 0;
   opacity: 0.85;
   margin-top: 1em;
-  -webkit-box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
-          box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
 }
 
 .buttonResume:hover {
@@ -210,8 +210,8 @@
   border: 1px solid #005c99;
   -webkit-box-shadow: 0px 0px;
           box-shadow: 0px 0px;
-  -webkit-box-shadow: 10px 10px 5px grey;
-          box-shadow: 10px 10px 5px grey;
+  -webkit-box-shadow: 8px 8px 8px grey;
+          box-shadow: 8px 8px 8px grey;
 }
 
 .buttonResume:active {
@@ -253,6 +253,8 @@
 .mainHead {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
+  -webkit-box-shadow: 0px 10px 85px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 85px rgba(0, 0, 0, 0.5);
   min-height: 100vh;
   min-width: 99vw;
   height: 100%;
@@ -302,15 +304,15 @@
 .topBar {
   height: 6em;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(14, 19, 18, 0.48);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
 }
 
 .topBarTxt {
@@ -1034,6 +1036,7 @@ div.sticky {
   vertical-align: middle;
   position: relative;
   right: 2%;
+  font-weight: 560;
 }
 
 html, body {
@@ -1046,12 +1049,12 @@ html, body {
 html::-webkit-scrollbar, body::-webkit-scrollbar {
   border-radius: 10px;
   height: 10px;
-  width: 8px;
+  width: 10px;
 }
 
 html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #f3f3f5), color-stop(0.5, #949597), color-stop(0.7, #5d5e5f), color-stop(0.9, #050505));
-  border-radius: 20px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #979797), color-stop(0.5, #616161), color-stop(0.7, #454546), color-stop(0.9, #050505));
+  border-radius: 5px;
   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
           box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
   height: 10em;

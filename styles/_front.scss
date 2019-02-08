@@ -1,7 +1,8 @@
 @import "variables";
 
 .mainHead {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
+	box-shadow: 0px 10px 85px rgba(0, 0, 0, 0.5);
 	min-height: 100vh;
     min-width: 99vw;
     @include proportions(100%, 100%);
@@ -46,12 +47,12 @@
 .topBar {
 	height: 6em;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(14,19,18,0.48);
 	display: inline-flex;
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	box-shadow: 2px 5px 5px rgba(0,0,0, 0.5);
+	box-shadow: 0px 6px 12px rgba(0,0,0, 0.5);
 }
 .topBarTxt {
 	font-family: $fontstyle;
