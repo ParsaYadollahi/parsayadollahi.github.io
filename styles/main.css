@@ -1029,14 +1029,15 @@ div.sticky {
   height: 100%;
   width: 100%;
   font-size: 2em;
-  text-align: center;
+  text-align: right;
+  float: right;
   color: white;
   font-family: "Oswald", sans-serif;
   font-size: 25px;
-  vertical-align: middle;
-  position: relative;
-  right: 2%;
   font-weight: 560;
+  width: 50px;
+  position: absolute;
+  right: 3%;
 }
 
 html, body {
