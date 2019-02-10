@@ -1036,11 +1036,11 @@ div.sticky {
   font-weight: 560;
   width: 50px;
   position: absolute;
-  right: 3%;
+  right: 5%;
 }
 
 .date {
-  right: 13%;
+  right: 15%;
 }
 
 html, body {
