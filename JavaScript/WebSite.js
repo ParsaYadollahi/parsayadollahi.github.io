@@ -32,6 +32,7 @@ function toggleNav() {
 function dateAndTime() {
   var today = new Date();
   document.getElementById('timer').innerHTML = today.toLocaleTimeString();
+  document.getElementById('date').innerHTML = today.toLocaleDateString();
   setTimeout(dateAndTime, 1000);
 }
 dateAndTime();

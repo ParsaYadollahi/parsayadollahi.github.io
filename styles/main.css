@@ -1,4 +1,4 @@
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -234,7 +234,7 @@
           box-shadow: 10px 10px 5px grey;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -327,7 +327,7 @@
   text-decoration: none;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -506,7 +506,7 @@
   font-size: 45px;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -859,7 +859,7 @@
   color: #ffffff;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -976,7 +976,7 @@ div.sticky {
   cursor: pointer;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -992,7 +992,7 @@ div.sticky {
           justify-content: center;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1008,7 +1008,7 @@ div.sticky {
           justify-content: center;
 }
 
-.container, .topBarTxt, .clock {
+.container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1024,7 +1024,7 @@ div.sticky {
           justify-content: center;
 }
 
-.clock {
+.clock, .date {
   height: 100%;
   width: 100%;
   font-size: 2em;
@@ -1037,6 +1037,10 @@ div.sticky {
   width: 50px;
   position: absolute;
   right: 3%;
+}
+
+.date {
+  right: 13%;
 }
 
 html, body {
