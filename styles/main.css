@@ -1057,7 +1057,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.2, #979797), color-stop(0.5, #616161), color-stop(0.7, #454546), color-stop(0.9, #050505));
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.1, #525252), color-stop(0.2, #666666), color-stop(0.3, #9e9e9e), color-stop(0.4, #c7c7c7), color-stop(0.5, lightgray), color-stop(0.6, #c7c7c7), color-stop(0.7, #9e9e9e), color-stop(0.8, #666666), color-stop(0.9, #525252));
   border-radius: 5px;
   -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
           box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
