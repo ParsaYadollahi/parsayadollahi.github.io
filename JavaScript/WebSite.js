@@ -29,6 +29,7 @@ function toggleNav() {
   }
 }
 
+// Time
 function dateAndTime() {
   var today = new Date();
   document.getElementById('timer').innerHTML = today.toLocaleTimeString();
@@ -36,3 +37,11 @@ function dateAndTime() {
   setTimeout(dateAndTime, 1000);
 }
 dateAndTime();
+
+// Smooth scrolling
+$(document).on('click', 'a[href^="#"]', function(event) {
+  event.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $($.attr(this, 'href')).offset().top }, 500);
+});
