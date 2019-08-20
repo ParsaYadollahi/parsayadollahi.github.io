@@ -10,6 +10,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -87,7 +89,7 @@
 					<hr style="width: 50%; height: 1px;">
 					<div class="clearfix toggle" id="about">
 <!-- Header (Left Side) -->
-				<div class="intro">
+				<div data-aos="fade-left" class="intro">
 					<div class="head" style="padding-top: 1em; position: relative; text-align: left; left: 1em;">
 						<p><span style="color:#005c99">A</span>bout Me</p>
 						<hr align="left" style="width: 15%;">
@@ -111,13 +113,13 @@
 					</div>
 				</div>
 <!--Cross Image (Right Side) -->
-				<div class="crossphoto">
+				<div data-aos="fade-right" class="crossphoto">
 						<img src="images/CrossPhoto.jpg" alt="images/CrossPhotoBackUp" class="crossImg">
 				</div>
 			</div>
 
 <!-- TimeLine page -->
-			<div>
+			<div data-aos="fade-up">
 				<div class="newPage">
 					<div style="text-align: center; color: #a6a6a6; margin-top: 2em;">
 						<hr style="width: 50%; height: 1px;">
@@ -215,23 +217,23 @@
 						<hr style="width: 50%" class="headerlines">
 					</div>
 <!-- Page Header -->
-					<div class="head" style="padding-top: 1em;" id="project">
+					<div data-aos="fade" class="head" style="padding-top: 1em;" id="project">
 						<p><span style="color:#005c99">P</span>roject</p>
 					</div>
 					<div>
 <!-- Left side of page -->
 						<div class="projectLeftSide">
-								<div class="courseTalkHeader">
+								<div class="courseTalkHeader" data-aos="fade" data-aos-delay="700">
 									<a href="https://github.com/ParsaYadollahi/hack-princeton-2018" target="_blank">
 										<button class="hvr-buzz-out" onclick="window.open('https://github.com/ParsaYadollahi/hack-princeton-2018','_blank')">	
 											<p style="margin: 0;">CourseTalk</p>
 										</button>
 									</a>
 								</div>
-								<hr style="width: 20%; color: #a6a6a6;" class="lineheader">
+								<hr data-aos="fade" data-aos-delay="700" style="width: 20%; color: #a6a6a6;" class="lineheader">
 							
 							<div style="margin-left: 3em;">
-									<div>
+									<div data-aos="fade" data-aos-delay="850">
 										<div>
 											<p class="courseTalkhead">Functionality</p>
 										</div>
@@ -243,7 +245,7 @@
 												</p>
 											</div>
 										</div>
-										<div>
+										<div data-aos="fade" data-aos-delay="950">
 											<div>
 												<p class="courseTalkhead">Story Time</p>
 											</div>
@@ -282,7 +284,7 @@
 					</div>
 				</div>
 <!-- Right side of page -->
-			<div class="courseTalkimages">
+			<div data-aos="fade-left" data-aos-delay="1200" class="courseTalkimages">
 					<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">
@@ -345,6 +347,10 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init()
+		</script>
 	</body>
 </html>
 
