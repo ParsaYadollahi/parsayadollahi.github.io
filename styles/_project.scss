@@ -4,32 +4,37 @@
 	@include proportions(100%, 100%);
 	max-height: 100%;
 	float: right;
+	padding-top: 27%;
+	padding-bottom: auto;
+	text-align: middle;
 
 	@include project {
+		@include proportions(auto,auto);
 		float: none;
 		width: 100%;
+		padding: 2%;
 		-webkit-align-self: center;
 		align-self: center;
 		margin: 0;
 	}
 }
 .courseTalkimages {
+	@include proportions(auto, 40%);
 	float: left;
-	max-width: 50%;
-	width: 38%;
-	vertical-align: middle;
 	position: relative;
-	left: 5%;
-	margin-top: 12%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+
 
 
 	@include project {
-	float: none;
-	padding: 0%;
-	margin: 0% 15%;
-	margin-top: 2%;
-	max-width: 70%;
-	display: inline-block;
+		@include proportions(auto,80%);
+		float: none;
+		padding: 5%;
+		margin: auto;
+		display: block;
 	}
 }
 .courseTalkHeader {
@@ -206,7 +211,7 @@
 		max-width: 95%;
 		width: 100%;
 		-webkit-align-self: center;
-  	align-self: center;
+  		align-self: center;
 	}
 }
 .builtWith {
