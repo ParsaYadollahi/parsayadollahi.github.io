@@ -242,6 +242,11 @@
           justify-content: center;
 }
 
+.backimage {
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+}
+
 .mainHead {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("../images/Website.JPG");
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/Website.JPG");
@@ -339,6 +344,11 @@
   list-style: none;
   padding: 20px 0 20px;
   position: relative;
+}
+
+backimg {
+  background-image: url("../images/Seamless06.JPG");
+  background-repeat: repeat;
 }
 
 .timeline:before {
@@ -1026,13 +1036,14 @@ div.sticky {
   font-family: "Oswald", sans-serif;
   font-size: 25px;
   font-weight: 560;
-  width: 50px;
+  width: auto;
   position: absolute;
-  right: 5%;
+  right: 3%;
 }
 
 .date {
-  right: 15%;
+  padding-left: 1%;
+  right: 10%;
 }
 
 html, body {

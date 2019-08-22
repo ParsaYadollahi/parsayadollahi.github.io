@@ -10,11 +10,12 @@
     font-family: $fontstyle;
     font-size: 25px;
     font-weight: 560;
-    width: 50px;
+    width: auto;
     position: absolute;
-    right: 5%;
+    right: 3%;
 }
 .date {
     @extend .clock;
-    right: 15%;
+    padding-left: 1%;
+    right: 10%;
 }
