@@ -340,6 +340,366 @@
           justify-content: center;
 }
 
+.container, .topBarTxt, .clock, .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.CourseTalkImg {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  float: right;
+  padding-top: 27%;
+  padding-bottom: auto;
+  text-align: middle;
+}
+
+@media (max-width: 900px) {
+  .CourseTalkImg {
+    height: auto;
+    width: auto;
+    float: none;
+    width: 100%;
+    padding: 2%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: 0;
+  }
+}
+
+.courseTalkimages {
+  height: auto;
+  width: 40%;
+  float: left;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .courseTalkimages {
+    height: auto;
+    width: 80%;
+    float: none;
+    padding: 5%;
+    margin: auto;
+    display: block;
+  }
+}
+
+.courseTalkHeader {
+  font-family: "Oswald", sans-serif;
+  color: #595959;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+@media (max-width: 900px) {
+  .courseTalkHeader {
+    float: none;
+    max-width: 100%;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 2%;
+  }
+}
+
+@media (max-width: 900px) {
+  .lineheader {
+    position: relative;
+    left: 2%;
+  }
+}
+
+@media (max-width: 900px) {
+  .headerline {
+    float: none;
+    max-width: 85%;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    position: relative;
+    left: 5%;
+  }
+}
+
+@-webkit-keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+
+@keyframes hvr-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg);
+  }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg);
+  }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0);
+  }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0);
+  }
+}
+
+.hvr-buzz-out {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #595959;
+  font-size: 125%;
+  background: transparent;
+  border: none;
+  margin-top: 1em;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
+  color: #005c99;
+  -webkit-animation-name: hvr-buzz-out;
+  animation-name: hvr-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.courseTalkhead {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  color: #595959;
+  padding-top: 20px;
+  letter-spacing: 2px;
+  position: relative;
+  left: 10px;
+  padding-left: 10px;
+  float: left;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.projectLeftSide {
+  float: left;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .projectLeftSide {
+    float: none;
+    max-width: 95%;
+    width: 100%;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+.builtWith {
+  text-align: center;
+  margin: 0;
+  font-size: 22px;
+  position: relative;
+  left: 1em;
+}
+
+.readMoreBtn {
+  background-color: transparent;
+  border: none;
+  color: #005c99;
+  margin-left: 2em;
+  padding-top: 0;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.readMoreBtn:hover {
+  color: #66b3ff;
+}
+
+.ending {
+  background-color: #4d4d4d;
+  height: 40%;
+  width: 100%;
+}
+
+.endingpg {
+  font-family: "Oswald", sans-serif;
+  min-height: 35%;
+  height: 290px;
+  width: 100%;
+  background-color: #00111a;
+  text-align: center;
+}
+
+.endingButton {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 35px;
+  cursor: pointer;
+  color: #a6a6a6;
+  margin: 5px;
+}
+
+.endingButton:hover, .endingButton:focus, .endingButton:active {
+  -webkit-transform: scale(1.1) perspective(1px);
+          transform: scale(1.1) perspective(1px);
+  color: white;
+}
+
+.madeBy {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #595959;
+  font-size: 15px;
+}
+
+.nameProgram {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #cccccc;
+  font-size: 18px;
+}
+
+.email {
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  color: #0033cc;
+}
+
+.email:hover {
+  text-decoration: none;
+  color: #33cccc;
+}
+
+.backTopbtn {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  color: #b3b3b3;
+  font-size: 13px;
+  background: transparent;
+  border: none;
+  margin-top: 1em;
+}
+
+.backTopbtn:hover {
+  color: #ffffff;
+}
+
 .timeline {
   list-style: none;
   padding: 20px 0 20px;
@@ -506,6 +866,20 @@ backimg {
   padding-top: 15px;
   text-transform: uppercase;
   font-size: 45px;
+}
+
+.pyats {
+  text-decoration: none;
+  background-color: transparent;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 17px;
+  color: #0033cc;
+}
+
+.pyats:hover {
+  text-decoration: none;
+  color: #2d1097;
 }
 
 .container, .topBarTxt, .clock, .date {
