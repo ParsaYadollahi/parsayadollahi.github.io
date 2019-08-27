@@ -882,6 +882,14 @@ backimg {
   color: #2d1097;
 }
 
+.parliament {
+  background-image: url("../images/parliament.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100vw;
+}
+
 .container, .topBarTxt, .clock, .date {
   display: -webkit-box;
   display: -ms-flexbox;
