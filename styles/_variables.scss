@@ -20,6 +20,12 @@ $introView: 960px;
   }
 }
 
+@mixin clock {
+  @media (max-width: #{1500px}){
+    @content
+  }
+}
+
 @mixin intro {
   @media (max-width: #{$introView}){
     @content;

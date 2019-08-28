@@ -255,7 +255,7 @@
   min-height: 100vh;
   min-width: 99vw;
   height: 100%;
-  width: 100%;
+  width: 104%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1427,12 +1427,21 @@ div.sticky {
   font-weight: 560;
   width: auto;
   position: absolute;
-  right: 3%;
+  right: 6%;
+  padding: auto;
+  padding-left: 1em;
 }
 
 .date {
   padding-left: 1%;
-  right: 10%;
+  right: 13%;
+  padding: auto;
+}
+
+@media (max-width: 1500px) {
+  .date {
+    display: none;
+  }
 }
 
 html, body {

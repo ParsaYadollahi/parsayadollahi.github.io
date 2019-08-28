@@ -12,10 +12,18 @@
     font-weight: 560;
     width: auto;
     position: absolute;
-    right: 3%;
+    right: 6%;
+    padding: auto;
+    padding-left: 1em;
 }
 .date {
     @extend .clock;
     padding-left: 1%;
-    right: 10%;
+    right: 13%;
+    padding: auto;
+
+
+    @include clock {
+        display: none
+    }
 }
