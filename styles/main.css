@@ -163,7 +163,6 @@
   height: 500px;
   width: auto;
   border-radius: 1%;
-  opacity: 0.8;
   -webkit-box-shadow: 7px 7px 10px #005c99;
           box-shadow: 7px 7px 10px #005c99;
 }
@@ -224,6 +223,21 @@
   margin-top: 1em;
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
+}
+
+#change {
+  position: relative;
+}
+
+#change img {
+  position: absolute;
+  left: 25%;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#change img.crossImg:hover {
+  opacity: 0;
 }
 
 .container, .topBarTxt, .clock, .date {
