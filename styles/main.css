@@ -155,6 +155,7 @@
     margin: 0;
     margin-top: 2em;
     width: 100%;
+    height: 90vh;
     padding-bottom: 4em;
   }
 }
@@ -236,8 +237,20 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+@media (max-width: 960px) {
+  #change img {
+    position: absolute;
+  }
+}
+
 #change img.crossImg:hover {
   opacity: 0;
+}
+
+@media (max-width: 960px) {
+  #change img.crossImg:hover {
+    opacity: 0;
+  }
 }
 
 .container, .topBarTxt, .clock, .date {
