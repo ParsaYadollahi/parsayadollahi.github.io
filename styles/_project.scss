@@ -1,82 +1,5 @@
 @import "variables";
 
-.CourseTalkImg {
-	@include proportions(100%, 100%);
-	max-height: 100%;
-	float: right;
-	padding-top: 27%;
-	padding-bottom: auto;
-	text-align: middle;
-
-	@include project {
-		@include proportions(auto,auto);
-		float: none;
-		width: 100%;
-		padding: 2%;
-		-webkit-align-self: center;
-		align-self: center;
-		margin: 0;
-	}
-}
-.courseTalkimages {
-	@include proportions(auto, 40%);
-	float: left;
-	position: relative;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: auto;
-
-
-
-	@include project {
-		@include proportions(auto,80%);
-		float: none;
-		padding: 5%;
-		margin: auto;
-		display: block;
-	}
-}
-.courseTalkHeader {
-	font-family: $fontstyle;
-	color: #595959;
-	letter-spacing: 4px;
-	text-align: center;
-	padding-top: 15px;
-	text-transform: uppercase;
-	font-size: 32px;
-
-	@include project {
-		float: none;
-		max-width: 100%;
-		width: 100%;
-		-webkit-align-self: center;
-		align-self: center;
-		position: relative;
-		margin: 0;
-		padding: 0;
-		left: 2%;
-	}
-}
-.lineheader {
-	@include project {
-		position: relative;
-		left: 2%;
-	}
-
-}
-.headerline {
-	@include project {
-		float: none;
-		max-width: 85%;
-		width: 100%;
-		-webkit-align-self: center;
-		align-self: center;
-		position: relative;
-		left: 5%;
-	}
-}
-
 @-webkit-keyframes hvr-buzz-out {
 	10% {
 	  -webkit-transform: translateX(3px) rotate(2deg);
@@ -187,58 +110,46 @@
 	animation-iteration-count: 1;
   }
 
-.courseTalkhead {
-	font-size: 25px;
-	font-family: $fontstyle;
-	color: #595959;
-	padding-top: 20px;
-	letter-spacing: 2px;
-	position: relative;
-	left: 10px;
-	padding-left: 10px;
-	float: left;
-	width: 100%;
-	padding-bottom: 10px;
-}
-.projectLeftSide {
-	float: left;
-	flex: 0 0 50%; 
-	max-width: 50%;
-	position: relative;
 
+.font_para {
+	font-family: $fontstyle;
+	font-size: 15px;
+	text-align: center;
+}
+.proj_imgs {
+	height: auto;
+	width: 700px;
+	max-width: auto;
+}
+.middle {
 	@include project {
-		float: none;
-		max-width: 95%;
-		width: 100%;
-		-webkit-align-self: center;
-  		align-self: center;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		width: 500px !important;
+		max-width: 600px !important;
 	}
 }
-.builtWith {
-	text-align: center;
-	margin: 0;
-	font-size: 22px;
-	position: relative;
-	left: 1em;
+.darken:hover {
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
 }
-
-.readMoreBtn {
-	background-color: transparent;
-	border: none;
-	color: #005c99;
-	margin-left: 2em;
-    padding-top: 0;
-    font-size: 20px;
-    font-family: $fontstyle;
-}
-.readMoreBtn:hover {
-	color: #66b3ff;
-}
-
 .ending {
 	background-color: #4d4d4d;
 	@include proportions(40%, 100%);
 }
+
+.tree_dot_img {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 
 .endingpg {
 	font-family: $fontstyle;
