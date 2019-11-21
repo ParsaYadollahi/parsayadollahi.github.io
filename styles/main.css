@@ -165,6 +165,8 @@
   border-radius: 1%;
   -webkit-box-shadow: 7px 7px 10px #005c99;
           box-shadow: 7px 7px 10px #005c99;
+  display: block;
+  margin: auto;
 }
 
 .clearfix::after {
@@ -504,6 +506,8 @@
 
 .proj_imgs {
   height: auto;
+  display: block;
+  margin: auto;
   width: 700px;
   max-width: auto;
 }
@@ -997,6 +1001,8 @@ backimg {
 
 .proj_imgs {
   height: auto;
+  display: block;
+  margin: auto;
   width: 700px;
   max-width: auto;
 }

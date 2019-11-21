@@ -133,6 +133,8 @@
       @include proportions(500px, auto);
       border-radius: 1%;
       box-shadow: 7px 7px 10px #005c99;
+      display: block;
+      margin: auto;
   }
   .clearfix::after {
     content: "";
