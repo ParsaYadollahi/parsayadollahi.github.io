@@ -98,7 +98,7 @@
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   }
-  .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {  
+  .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
 	color:#005c99;
 	-webkit-animation-name: hvr-buzz-out;
 	animation-name: hvr-buzz-out;
@@ -120,7 +120,7 @@
 	height: auto;
 	display: block;
 	margin: auto;
-	width: 700px;
+	width: 700px !important;
 	max-width: auto;
 }
 .middle {

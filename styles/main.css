@@ -508,7 +508,7 @@
   height: auto;
   display: block;
   margin: auto;
-  width: 700px;
+  width: 700px !important;
   max-width: auto;
 }
 
@@ -1003,7 +1003,7 @@ backimg {
   height: auto;
   display: block;
   margin: auto;
-  width: 700px;
+  width: 700px !important;
   max-width: auto;
 }
 
